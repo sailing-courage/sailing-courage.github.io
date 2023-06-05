@@ -22,7 +22,7 @@ mainSections = [
 ]
 mode = "light" # color-mode → light,dark,toggle or auto
 useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
-# subtitle = "Welcome to Sailing Courage!"
+subtitle = "DIY projects onboard our 1976 Hallberg-Rassy Rasmus 35 Ketch"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["css/custom.css"]
