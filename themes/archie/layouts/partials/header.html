@@ -44,6 +44,10 @@
 		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="{{ $darkstyle.Permalink }}" {{ if eq .Site.Params.mode "auto" }}media="(prefers-color-scheme: dark)"{{ end }} {{ if eq .Site.Params.mode "toggle" }}disabled{{ end }} />
 	{{ end }}
 
+	{{ if and (isset .Site.Params "goatcounter") (hugo.IsProduction)}}
+		<script data-goatcounter="https://courage.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	{{ end}}
+
 	<!-- Mathjax support -->
 	{{ with .Site.Params.mathjax }}
 		<script type="text/javascript"
