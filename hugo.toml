@@ -28,6 +28,7 @@ katex = false # enable KaTeX support
 customcss = ["css/custom.css"]
 goatcounter = "courage" # if set, points to GoatCounter
 donationlink = "https://ko-fi.com/sailingcourage"
+github = "https://github.com/sailing-courage"
 
 # Social Tags
 
