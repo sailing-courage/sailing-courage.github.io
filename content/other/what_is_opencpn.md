@@ -11,7 +11,7 @@ OpenCPN is an open-source marine navigation program. It is free and can be run o
 
 OpenPlotter is a Linux-based operating system intended for use in making DIY plotters. It includes OpenCPN and many other useful programs.
 
-{{< figure src="/images/opencpn.png" link="/images/courage-plotter.jpg" >}}
+{{< figure src="/images/opencpn.png" link="/images/opencpn.png" >}}
 
 [OpenCPN website](https://opencpn.org/)
 
