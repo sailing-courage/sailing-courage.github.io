@@ -16,7 +16,7 @@ So what are the advantages of an open-source system? The most obvious is cost. Y
 
 ## THE HARDWARE, THE SOFTWARE
 
-{{< figure src="/images/courage_plotter.jpg" link="/images/courage-plotter.jpg" caption="Click to see a larger version">}}
+{{< figure src="/images/courage_plotter.jpg" link="/images/courage_plotter.jpg" caption="Click the image to see a larger version">}}
 
 First we needed a brain for the system: a computer. Some simply take an old laptop or tablet and install [OpenCPN]({{< ref "what_is_opencpn" >}}), an open-source marine navigation program that can run on any device. That in itself can be a fully functional system. For a more integrated solution, you can get a [Raspberry Pi]({{< ref  "what_is_a_raspberry_pi" >}}) and run [OpenPlotter]({{< ref "what_is_opencpn" >}}). The Raspberry Pi is an inexpensive single-board computer, popular among engineers and developers. I made [a separate post with advice on what model to choose]({{< ref "selecting_a_raspberry_pi_model" >}}). OpenPlotter is a Linux-based chartplotter operating system that includes OpenCPN as well as a bunch of other marine software and utilities.
 
