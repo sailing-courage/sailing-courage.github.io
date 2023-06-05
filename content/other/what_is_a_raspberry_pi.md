@@ -4,7 +4,7 @@ title: "What is a Raspberry Pi?"
 date: 2023-06-05
 draft: false
 # tldr: "This is the tl;dr" # (optional)
-tags: ["raspberry_pi"] # [tag names] (optional)
+tags: ["raspberrypi"] # [tag names] (optional)
 ---
 
 A Raspberry Pi is a tiny and inexpensive computer on a single printed circuit board. It is about the size of a pack of cigarettes and designed to run versions of Linux. It has many different ways to connect to sensors, systems and other computers. It uses very little power and can be powered via USB. Because of these features, it is a favorite tool of engineers, developers, hackers and tech tinkeres in general.

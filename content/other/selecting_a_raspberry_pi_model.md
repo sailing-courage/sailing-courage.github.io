@@ -4,7 +4,7 @@ title: "Selecting a Raspberry Pi Model"
 date: 2023-06-05
 draft: false
 # tldr: "This is the tl;dr" # (optional)
-tags: ["raspberry_pi"] # [tag names] (optional)
+tags: ["raspberrypi"] # [tag names] (optional)
 ---
 
 {{< figure src="/images/raspberry_pi_cc.jpg" attr="[\"Raspberry Pi\"](https://wordpress.org/photos/photo/85861bd243/) by [Mike](https://wordpress.org/photos/author/amosquito/) is licensed under [CC-CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)">}}
