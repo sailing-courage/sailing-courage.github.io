@@ -1,3 +1,61 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://sailingcourage.xyz/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sailing Courage'
+
+theme = "archie"
+# copyright = "© Athul"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourDisqusShortname"
+
+paginate = 3 # articles per page
+
+[params]
+mode = "light"                          # color-mode → light,dark,toggle or auto
+useCDN = false                           # don't use CDNs for fonts and icons, instead serve them locally.
+subtitle = "Welcome to Sailing Courage!"
+mathjax = false                          # enable MathJax support
+katex = false                            # enable KaTeX support
+customcss = ["css/custom.css"]
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/sailing-courage"
+
+# [[params.social]]
+# name = "Twitter"
+# icon = "twitter"
+# url = "https://twitter.com/USER/"
+
+# [[params.social]]
+# name = "GitLab"
+# icon = "gitlab"
+# url = "https://gitlab.com/athul/"
+
+# Main menu Items
+
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2
+
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 3
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 4
