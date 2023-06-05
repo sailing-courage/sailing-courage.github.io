@@ -39,3 +39,7 @@ footer {
   color: inherit;
   background-color: var(--hovercolor);
 }
+
+.soc:hover{
+  color: inherit;
+}
