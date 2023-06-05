@@ -5,10 +5,15 @@
     <a class="border"></a>
     {{- end -}}
   </div>
-  <div class="footer-info">
+  <div class="footer-donation">
+    {{ with .Site.Params.donationlink}}
+      <p><a href="{{ .}}">[Buy me a coffee? <i data-feather="coffee"></i>]</a></p>
+    {{ end }}
+  </div>
+  <!-- <div class="footer-info">
     {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+  </div> -->
 </footer>
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}

@@ -21,6 +21,12 @@ a:hover {
 /* Footer */
 footer {
   border-top: 0.2rem dotted var(--bordercl);
+  padding: 1rem 0rem;
+}
+
+.footer-donation > p {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
 }
 
 .footer-info {
