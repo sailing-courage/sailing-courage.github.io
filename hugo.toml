@@ -26,6 +26,7 @@ useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["css/custom.css"]
+goatcounter = "courage" # if set, points to GoatCounter
 
 # Social Tags
 
