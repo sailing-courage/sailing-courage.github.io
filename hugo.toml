@@ -14,12 +14,15 @@ pygmentscodefencesguesssyntax = true
 paginate = 5 # articles per page
 
 [params]
+# Sections from where to draw posts for main page.
+# Otherwise stupidly defaults to section with most posts.
+# https://gohugo.io/functions/where/#mainsections
 mainSections = [
-	'posts',
-] # Sections from where to draw posts for main page. Otherwise stupidly defaults to section with most posts. https://gohugo.io/functions/where/#mainsections
+	'projects',
+]
 mode = "light" # color-mode → light,dark,toggle or auto
 useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
-subtitle = "Welcome to Sailing Courage!"
+# subtitle = "Welcome to Sailing Courage!"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["css/custom.css"]
@@ -49,13 +52,13 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "posts"
-url = "/posts"
+name = "projects"
+url = "/projects"
 weight = 2
 
 [[menu.main]]
-name = "stubs"
-url = "/stubs"
+name = "other"
+url = "/other"
 weight = 3
 
 # [[menu.main]]
@@ -63,7 +66,7 @@ weight = 3
 # url = "/about"
 # weight = 3
 
-[[menu.main]]
-name = "tags"
-url = "/tags"
-weight = 4
+# [[menu.main]]
+# name = "tags"
+# url = "/tags"
+# weight = 4
