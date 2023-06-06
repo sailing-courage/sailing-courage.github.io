@@ -4,11 +4,17 @@
       <p><a href="{{ .}}">[You can support this site by buying me a coffee<i data-feather="coffee"></i>]</a></p>
     {{ end }}
   </div>
+
   <div class="footer-github">
     {{ with .Site.Params.github}}
     <a class="soc" href="{{ . }}" rel="me" title="GitHub"><i data-feather="github"></i></a>
     {{ end }}
   </div>
+
+  <div class="footer-disclaim">
+    <p><a href="/other/ai_disclaimer/">AI disclaimer </a></p>
+  </div>
+
   <!-- <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>

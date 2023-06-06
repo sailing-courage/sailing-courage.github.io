@@ -29,6 +29,11 @@ footer {
   margin: 0;
 }
 
+.footer-disclaim > p {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
 .footer-github {
   margin-left: auto;
   float: right;
