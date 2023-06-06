@@ -22,6 +22,8 @@ a:hover {
 footer {
   border-top: 1px solid var(--bordercl);
   padding: 1rem 0rem;
+  display: flex;
+  align-items: flex-start;
 }
 
 .footer-link {
