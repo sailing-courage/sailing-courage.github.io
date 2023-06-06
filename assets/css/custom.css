@@ -20,7 +20,7 @@ a:hover {
 
 /* Footer */
 footer {
-  border-top: 0.2rem dotted var(--bordercl);
+  border-top: 1px solid var(--bordercl);
   padding: 1rem 0rem;
 }
 
