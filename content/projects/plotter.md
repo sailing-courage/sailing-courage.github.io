@@ -42,3 +42,5 @@ Having a Raspberry Pi onboard gives endless possibilities. There are a number of
 * Make a setup for running the autopilot pump through the Pi instead of the normal autopilot computer in order to save power and increase redundancy.
 * Set up a cheap [SDR HF receiver](https://www.rtl-sdr.com/) to get [free weather information offshore via Weatherfax](https://jeremyclark.ca/wp/telecom/rtl-sdr-for-marine-hf-weather-fax/) and Navtex.
 * Connect to satellite internet for true offshore connectivity.
+
+Has this been useful to you? Have I saved you a few smackeroonies? Consider buying me a coffee through the link at the buttom of the page.
