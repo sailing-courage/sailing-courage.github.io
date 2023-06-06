@@ -24,14 +24,12 @@ footer {
   padding: 1rem 0rem;
 }
 
-.footer-donation > p {
+.footer-link {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
-
-.footer-disclaim > p {
-  font-family: 'Roboto Mono', monospace;
-  margin: 0;
+.footer-link:not(:first-child) {
+  margin-top: 0.5em;
 }
 
 .footer-github {

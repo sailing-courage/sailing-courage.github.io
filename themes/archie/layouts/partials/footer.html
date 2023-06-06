@@ -1,18 +1,15 @@
 <footer>
-  <div class="footer-donation">
+  <div class="footer-link-container">
     {{ with .Site.Params.donationlink}}
-      <p><a href="{{ .}}">[You can support this site by buying me a coffee<i data-feather="coffee"></i>]</a></p>
+      <p class="footer-link"><a href="{{ .}}">[You can support this site by buying me a coffee <i data-feather="coffee"></i>]</a></p>
     {{ end }}
+      <p class="footer-link"><a href="/other/ai_disclaimer/">[AI disclaimer]</a></p>
   </div>
 
   <div class="footer-github">
     {{ with .Site.Params.github}}
     <a class="soc" href="{{ . }}" rel="me" title="GitHub"><i data-feather="github"></i></a>
     {{ end }}
-  </div>
-
-  <div class="footer-disclaim">
-    <p><a href="/other/ai_disclaimer/">AI disclaimer </a></p>
   </div>
 
   <!-- <div style="display:flex">
