@@ -6,6 +6,9 @@ draft: false
 # tldr: "This is the tl;dr" # (optional)
 tags: ["opencpn", "openplotter", "plotter", "raspberrypi"] # [tag names] (optional)
 ---
+
+{{< youtube id="n1xVVpdjrG4" title="OpenCPN with an old chartplotter as screen" >}}
+
 ## THE OPEN-SOURCE OPTION
 
 This post describes the “new” navigation system onboard our 1976 Hallberg-Rassy Rasmus 35. The quotation marks are there because the “new” system is actually a bunch of old hardware, connected through a [Raspberry Pi]({{< ref  "what_is_a_raspberry_pi" >}}) single-board Linux computer running [OpenPlotter]({{< ref "what_is_opencpn" >}}). This open-source, DIY approach allowed us to modernize our system at a fraction of the price of a commercially available package. Hopefully this post can help provide some inspiration and resources for anyone wanting to undertake a similar project.
