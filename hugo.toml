@@ -27,6 +27,7 @@ mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["css/custom.css"]
 goatcounter = "courage" # if set, points to GoatCounter
+og_image = "https://sailingcourage.xyz/images/courage_night.png"
 donationlink = "https://ko-fi.com/sailingcourage"
 github = "https://github.com/sailing-courage"
 
